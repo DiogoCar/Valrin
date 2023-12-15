@@ -18,21 +18,28 @@ public class Valrin {
         // TODO code application logic here
 
     
-    double b,h,ar;
-        
-        String bs,hlt;
+    double pp,pb,t,porc,porc2;
+        int,p,b;
+        String np,nb;
    
         
-        bs=JOptionPane.showInputDialog(null, "Digite a base: ");
-        hlt=JOptionPane.showInputDialog(null, "Digite a altura: ");
+        np=JOptionPane.showInputDialog(null, "Digite a base: ");
+        nb=JOptionPane.showInputDialog(null, "Digite a altura: ");
        
         
-        b = Double.parseDouble(bs);
-        h = Double.parseDouble(hlt);
+        p = Integer.parseInt(np);
+        b = Integer.parseInt(nb);
         
-      ar= b*h;
+      pp= 0.20*p;
+      pb= 1.50*b;
+      t= pp+pb;
+      porc= 10*t/100;
+      porc2= t-porc;
        
-      JOptionPane.showMessageDialog(null, "A area do quadrado é: " + ar);
+      JOptionPane.showMessageDialog(null, "Pães: " + p + "\n"+
+"Broas: " + b + "\n"+
+"Total: " + t + "\n"+
+"Poupança: " + porc2 );
        
     }
 }
