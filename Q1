@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  *
  * @author Discente
  */
-public class Exercicio_fix {
+public class Valrin {
 
     /**
      * @param args the command line arguments
