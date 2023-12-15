@@ -1,0 +1,38 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package exercicio_fix;
+
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author Discente
+ */
+public class Valrin {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+    
+    double r,l;
+        
+        String sr;
+   
+        
+        sr=JOptionPane.showInputDialog(null, "Valor em real: ");
+       
+       
+        
+        r = Double.parseDouble(sr);
+       
+        l= r/5;
+     
+       
+      JOptionPane.showMessageDialog(null, l+" litros (5R$ um litro)");
+       
+    }
+}
