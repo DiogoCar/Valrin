@@ -1,0 +1,36 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package exercicio_fix;
+
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author Discente
+ */
+public class Valrin {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+
+int qp, qm, qg;
+String sqp,sqm,sqg;
+int pp = 10, pm = 12, pg = 15;
+int t;
+
+sqp= JOptionPane.showInputDialog("Camisetas pequenas vendidas: ")
+sqm= JOptionPane.showInputDialog("Camisetas médias vendidas: ")
+sqg= JOptionPane.showInputDialog("Camisetas grandes vendidas: ")
+
+qp= Integer.parseInt(sqp);
+qm = Integer.parseInt(sqm);
+qg = Integer.parseInt(sqg);
+
+t = qp * pp + qm * pm + qg * pg;
+
+JOptionPane.showMessageDialog(null, "Total: R$ " + t);
